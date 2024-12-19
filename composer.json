@@ -1,0 +1,23 @@
+{
+    "name": "sepulchrestudios/charon-shared",
+    "description": "Shared components for the Charon authentication and authorization system used within Sepulchre Studios.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^11.31",
+        "laravel/jetstream": "^5.3",
+        "laravel/sanctum": "^4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SepulchreStudios\\CharonShared\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew Fritz",
+            "email": "mattf@burbankparanormal.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
